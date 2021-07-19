@@ -42,7 +42,7 @@
     content:'';     
     width:0%;
     height:2px;
-    background:#f44336;
+    background:#222dbe;
     display:block;
     margin:auto;
     transition:0.5s;
@@ -138,7 +138,7 @@ z-index: 2;
 .nav-links ul{
     padding:30px
 } */
-
+/* 
 .course{
     width:80%;
     text-align:center;
@@ -171,12 +171,12 @@ p{
     margin-bottom: 5%;
     padding:20px 12px;
     box-sizing: border-box;
-}
-h2{
+} */
+ /* h2{
     text-align:center;
     font-weight: 600;
     margin:10px 0;
-}
+} */
 
 .course-col:hover{
     box-shadow: 0 0 20px 0px rgba(12, 12, 12, 0.123);
@@ -433,4 +433,17 @@ color:orange;
 }
 @media screen and (max-width:576px){
     .main-timeline .title{ font-size: 18px; }
+}
+.card{
+    padding: 10px;
+    background:chocolate;
+  
+}
+.card-text{
+    color:gray
+}
+
+.card-body{
+    background:transparent;
+    background:linear-gradient(white,rgb(244, 229, 229,0.8),whitesmoke)
 }
