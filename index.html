@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="styles.css"/>   
+      <!--  Bootstrap css file  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!--  font awesome icons  -->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+    
      <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
@@ -16,6 +23,18 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500|Open+Sans">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+ 
+<script src ="index.js"></script>
 <title>Document</title>
     
 </head>
@@ -63,7 +82,7 @@
             <a href="Course.html" class="mainlink">Courses</a>
             <a href="#">Projects</a>
             <a href="get.html">Get Access</a>
-            <a href="#">Contact us</a>
+            <a href="team.html">Contact us</a>
         </div>
     </div>
 
@@ -71,14 +90,15 @@
 
     <div class="landing";>
         <div class="landingText" data-aos="fade-up" data-aos-duration="1000">
-            <h1 style="color: yellow;">CODE.<span style="color:#e0501b;font-size: 4vw"> TO DECODE.</span> </h1>
-            <h3 style="color:rgb(208, 233, 235)">Learn coding RIGHT way  specially designed for kids.</h3>
+            <h1 style="color: rgb(78, 83, 230);">CODE.<span style="color:RGB(185, 73, 120);font-size:3.8vw"> TO DECODE..</span> </h1>
+           <span style="color:#c5b925;font-size:102px;font-weight:bold">|</span> <span style="color:#c5b925;font-size:42px" >Learn coding RIGHT way</span>
+           <br>
             <div class="btn">
                 <a href="#course">Explore courses</a>
             </div>
         </div>
         <div class="landingImage" data-aos="fade-down" data-aos-duration="2000" style="display: flex;">
-            <img src="https://roiscape.com/wp-content/uploads/2021/05/illus-webdesign-2.png" alt="">
+            <img src="https://roiscape.com/wp-content/uploads/2021/05/illus-webdesign-2.png" alt="" style="opacity: 0.8;">
            
         </div>
     </div>
@@ -134,83 +154,36 @@
 
 
 
-<!-- .............how we works........... -->
-<div class="infoSection" style ="margin-top:50px">
-  <div class="infoHeader" data-aos="fade-up" data-aos-duration="2000">
-      <h1> <b>How our program works</b><br> <span style="color:#e0501b">CP CLASSES FLOW </span> </h1>
-  </div>
-  <div class="infoCards">
-      <div class="card one" data-aos="fade-up" data-aos-duration="1000">
-          <img src="img/movie.png" class="cardoneImg" alt="" data-aos="fade-up" data-aos-duration="1100">
-          <div class="cardbgone"> </div>
-          <div class="cardContent">
-              <h2>60 min sessions</h2>
-              <p>Watch our personalized sessions with embedded assignments and projects.</p>
-              <a href="#">
-                  <div class="cardBtn">
-                      <img src="img/next.png" alt="" class="cardIcon">
-                  </div>
-              </a>
-          </div>
-      </div>
-      <div class="card two" data-aos="fade-up" data-aos-duration="1300">
-          <img src="img/learn.png" class="cardtwoImg" alt="" data-aos="fade-up" data-aos-duration="1200">
-          <div class="cardbgtwo"></div>
-          <div class="cardContent">
-              <h2>Learn a New Skill</h2>
-              <p> <b>Try a new language this Quarantine! PYTHON JAVASCRIPT </b></p>
-              <a href="#">
-                  <div class="cardBtn">
-                      <img src="img/next.png" alt="" class="cardIcon">
-                  </div>
-              </a>
-          </div>
-      </div>
-      <div class="card three" data-aos="fade-up" data-aos-duration="1600">
-          <img src="img/videocall.png" class="cardthreeImg" alt="" data-aos="fade-up" data-aos-duration="1300">
-          <div class="cardbgone"></div>
-          <div class="cardContent">
-              <h2>Video Call</h2>
-              <p>1:1 and  1:n live support classes 2</p>
-              <a href="#">
-                  <div class="cardBtn">
-                      <img src="img/next.png" alt="" class="cardIcon">
-                  </div>
-              </a>
-          </div>
-      </div>
-  </div>
-</div>
 
 
 
 <!-- .......choose us section....... -->
 
 
-<section class="choose-us" data-aos="fade-right" data-aos-duration="1000">
-    <center><h1 style="font-size:62px;font-weight:112px;padding-top:20px"> <b> OUR COURSES </b></h1> <p style="font-size:22px;color:dodgerblue;font-weight:22px;"> Our course target your 10X growth</p></center>
-    <div class="container">
+<section class="choose-us" data-aos="fade-right" data-aos-duration="1000" style="margin-top:60px">
+    <center><h1 style="font-size:60px;font-weight:112px;padding-top:20px"> <b>COURSES YOU CAN'T MISS OUT </b></h1> <p style="font-size:24px;color:dodgerblue;font-weight:22px;"> Our courses target your 10X growth</p></center>
+    <div class="container" style="margin-top:90px;">
 
         <!-- Portfolio Item Heading -->
-        <h1 class="my-4" id="course"> CODING PANTHERS INSIGHT<br>
+        <h1 class="my-4" id="course" ><b>CODING PANTHERS INSIGHT </b><br>
           <small> Design by developers</small>
         </h1>
       
         <!-- Portfolio Item Row -->
         <div class="row">
       
-          <div class="col-md-8">
-            <img class="img-fluid" src="https://i.pinimg.com/originals/aa/44/ef/aa44ef7b4c3be76305522fb260d403da.png" alt="">
+          <div class="col-md-6" style="box-shadow: 10px 5px 10px 10px rgb(197, 192, 192);">
+            <img class="img-fluid" src="https://www.multidots.com/wp-content/uploads/2020/01/code-quality-standard.png?quality=90" alt="">
           </div>
       
-          <div class="col-md-4">
-            <h3 class="my-3" style="font-size:28px">Our Thoughts</h3>
-            <p>We believe that everyone learns coding at their own pace. So our developers has built Courses depending upon your level of understanding.</p>
+          <div class="col-md-5" style="margin-left:40px;">
+            <h3 class="my-3" style="font-size:48px;">Our Thoughts</h3>
+            <p style="color:dodgerblue;font-size:20px;">We believe that everyone learns coding at their own pace. So our developers has built Courses depending upon your level of understanding.</p>
             <h3 class="my-3"> </h3>
             <ul style="font-size:25px">
-              <li>RUNTIME TERROR</li>
-              <li> DEBUGGER</li>
-              <li> CODING BUDS </li>
+              <li style="list-style:square;background:RGB(240, 102, 123,0.5)">RUNTIME TERROR</li>
+              <li style="list-style:triangle;"> DEBUGGER</li>
+              <li style="list-style:circle; background-color: RGB(250, 210, 90,0.5);"> CODING BUDS </li>
               
             </ul>   
           </div>
@@ -221,31 +194,48 @@
 
             <!-- Portfolio Item Heading -->
             <h1 class="my-4" data-aos="fade-right" data-aos-duration="2000"><b>RUNTIME TERROR</b><br>
-              <small> Design for NEWBIE's</small>
+              <small style ="color:#484291"> Design for NEWBIE's</small>
             </h1>
           
+
+
             <!-- Portfolio Item Row -->
             <div class="row" style ="background-color: rgb(235, 244, 249);" data-aos="fade-up" data-aos-duration="1000">
           
               
           
               <div class="col-md-8">
-                <h3 class="my-3"> <b>INSIGHT'S</b></h3>
+              
+                  <div style="display:flex;justify-content:space-between;background-color: RGB(242, 123, 129);width:100%;padding:15px;border-radius:0px 0px 49px 49px; box-shadow:0px 5px 10px gray">
+               <div>
+
+                <h4>  Designed BY: <b> <u>VIHAAN</u></b></h4>
+             <ul style="color:white">
+
+                <li>Designer</li>
+                <li>Coder</li>
+                <p> who is Vihaan? <small><a>know here</a></small></p>
+             </ul>
+
+               </div>
+                  <img src="https://cdn2.vectorstock.com/i/thumb-large/55/86/anonymous-icon-incognito-sign-privacy-vector-34705586.jpg"style = "border-radius:50%;border:2px solid purple;box-shadow:3px 3px 3px  5px white" height="100px" width="100px"/>
+                </div>
+                <h3 class="my-3" style="padding-top:20px"> <b>INSIGHT'S</b></h3>
                 <p style="font-size:18px;">This course is designed for beginners in programming. For those who doesn't know anything about programming
                     This course is backed up with basics of programming loops,operators,functions,etc.
                 </p>
                 <h3 style="font-size:22px"> PREQUISITE: <b style="color:red">NONE</b></h3>
                 <h3 class="my-3">Course Modules</h3>
-                <ul>
-                  <li>72 Personalised Notes</li>
-                  <li> 50+ Videos </li>
-                  <li> 5 Projects</li>
+                <ul >
+                  <li style="list-style:none;background:RGB(240, 102, 123,0.5);font-size:24px;" data-aos="fade-left" data-aos-duration="2000">72 Personalised Notes</li>
+                  <li style="list-style:none;background:RGB(140, 202, 123,0.5);font-size:20px;width:80%" data-aos="fade-left" data-aos-duration="4000">50+ Videos </li>
+                  <li style="list-style:none;background:RGB(140, 102, 223,0.5);font-size:18px;width:60%" data-aos="fade-left" data-aos-duration="6000"> 5 Projects</li>
                   
                 </ul>
                 <button type="button" class="btn btn-success">Get this course| 5$</button>
                </div>
               <div class="col-md-4">
-                <img class="img-fluid" src="https://img.freepik.com/free-vector/business-vision-big-target-with-woman-teamwork_132971-540.jpg?size=626&ext=jpg" alt="">
+                <img class="img-fluid" src="https://i.pinimg.com/originals/e3/63/e3/e363e38ceffaece60e00b87ee4286e08.gif" alt="">
               </div>
             </div>
 
@@ -261,15 +251,26 @@
               
             <div class="row" style ="background-color: rgb(249, 246, 235);"data-aos="fade-up" data-aos-duration="1000">
       
-                <div class="col-md-8">
-                  <img class="img-fluid" src="https://cdn.lynda.com/course/645067/645067-637081444918667146-16x9.jpg" alt="" width="600"><br>
+                <div class="col-md-5">
+                  <img class="img-fluid" src="https://kinsta.com/wp-content/uploads/2020/04/wordpress-debug.png" alt=""><br>
                
                 </div>
             
-                <div class="col-md-4">
-                  <h3 class="my-3"> <b>INSIGHT'S</b></h3>
+                <div class="col-md-6" style="margin-left:20px">
+                    <div style="display:flex;justify-content:space-between;background-color:RGB(28, 44, 103);width:110%;padding:15px;border-radius:0px 0px 49px 49px; box-shadow:0px 5px 10px gray">
+                        <div>
+                      <ul style="color:white">
+         
+                         <li>Designer</li>
+                         <li>Coder</li>
+                      </ul>
+         
+                        </div>
+                           <img src="https://cdn2.vectorstock.com/i/thumb-large/55/86/anonymous-icon-incognito-sign-privacy-vector-34705586.jpg"style = "border-radius:50%;border:2px solid purple;box-shadow:3px 3px 3px  5px white" height="100px" width="100px"/>
+                         </div>
+                  <h3 class="my-3" style="padding-top:20px"> <b>INSIGHT'S</b></h3>
                   <p>This course is built for those who have basic understanding of programming. If you want to upgrade your programming skill to the next level, go for Debugger.</p>
-                  <h3 style="font-size:22px"> PREQUISITE: <b style="color:red"> <small>     Knowledge of LOOPS/OPERATORS</b></small></h3>
+                  <h3 style="font-size:22px"> PREQUISITE: <b style="color:red"> <small>     Knowledge of LOOPS/OPERATORS</small></b></h3>
                   <h3 class="my-3">Course Modules </h3>
                   <ul>
                     <li> 72+ Assignments/ Assessments</li>
@@ -298,7 +299,18 @@
                 
             
                 <div class="col-md-8">
-                  <h3 class="my-3"> <b>INSIGHT'S</b></h3>
+                    <div style="display:flex;justify-content:space-between;background-color:RGB(86, 190, 196);width:85%;padding:15px;border-radius:0px 0px 49px 49px; box-shadow:0px 5px 10px gray">
+                        <div>
+                      <ul style="color:white">
+         
+                         <li>Designer</li>
+                         <li>Coder</li>
+                      </ul>
+         
+                        </div>
+                           <img src="https://cdn2.vectorstock.com/i/thumb-large/55/86/anonymous-icon-incognito-sign-privacy-vector-34705586.jpg"style = "border-radius:50%;border:2px solid purple;box-shadow:3px 3px 3px  5px white" height="100px" width="100px"/>
+                         </div>
+                  <h3 class="my-3" style="padding-top:20px"> <b>INSIGHT'S</b></h3>
                   <p style="font-size:18px;">This course is designed for programmers whose been coding and wants to build their own projects.
                       This course is backed up with new projects frameworks etc.
                   </p>
@@ -321,7 +333,143 @@
 
 
 
+<!-- 
+...Why choose us new...... -->
+<div class = "site-main" style="margin-top: 35px;"> 
+   <center> <h1>We're not finished yet !!</h1> </center>
+<section class="brand-area">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-6 col-lg-12 col-md-12">
+                <div class="experience-area">
+                    <div class="d-flex flex-row years-area">
+                        <h2 class="p-3 years">10+</h2>
+                        <h2>
+                            <span>Reasons</span>
+                            <span>to</span>
+                            <span>Choose US</span>
+                        </h2>
+                    </div>
+                    <div class="d-flex flex-row flex-wrap call-area">
+                        <span><i class="fab fa-discord fa-3x px-3"></i></span>
+                        <div class="call-now">
+                            <a href="#" class="text-uppercase h4 font-roboto">Join NOW</a>
+                            <span class="font-roboto py-2">discord server link</span>
+                        </div>
+                    </div>
+                    <div class="bg-panel"></div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-12 col-md-8">
+                <div class="first-row row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-brand">
+                            <img src="http://www.parmaleepta.org/sitezimages/pages/page164/AdobeStock_89375842.jpeg" alt="Brand-1 ">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-brand">
+                            <img src="https://mpng.subpng.com/20181128/cbr/kisspng-python-programming-basics-for-absolute-beginners-michigan-python-user-group-5-jul-2-18-5bfef921c53528.7857216715434365778078.jpg" alt="Brand-2 ">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-brand">
+                            <img src="./img/brands/logo3.png" alt="Brand-3 ">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-brand">
+                            <img src="./img/brands/logo10.png" alt="Brand-4">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-brand">
+                            <img src="./img/brands/logo5.png" alt="Brand-5 ">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-brand">
+                            <img src="./img/brands/logo6.png" alt="Brand-6">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-brand">
+                            <img src="./img/brands/logo7.png" alt="Brand-7 ">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-brand">
+                            <img src="./img/brands/logo8.png" alt="Brand-8 ">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-brand">
+                            <img src="./img/brands/logo9.png" alt="Brand-9">
+                        </div>
+                    </div>
+                </div>
+            </div>
+         
+        </div>
+    </div>
+</section>
+</div>
 
+
+
+
+
+
+
+
+<!-- .............how we works........... -->
+<!-- <div class="infoSection" style ="margin-top:50px">
+    <div class="infoHeader" data-aos="fade-up" data-aos-duration="2000">
+        <h1> <b>How our program works</b><br> <span style="color:#e0501b">CP CLASSES FLOW </span> </h1>
+    </div>
+    <div class="infoCards">
+        <div class="card one" data-aos="fade-up" data-aos-duration="1000">
+            <img src="img/movie.png" class="cardoneImg" alt="" data-aos="fade-up" data-aos-duration="1100">
+            <div class="cardbgone"> </div>
+            <div class="cardContent">
+                <h2>60 min sessions</h2>
+                <p>Watch our personalized sessions with embedded assignments and projects.</p>
+                <a href="#">
+                    <div class="cardBtn">
+                        <img src="img/next.png" alt="" class="cardIcon">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="card two" data-aos="fade-up" data-aos-duration="1300">
+            <img src="img/learn.png" class="cardtwoImg" alt="" data-aos="fade-up" data-aos-duration="1200">
+            <div class="cardbgtwo"></div>
+            <div class="cardContent">
+                <h2>Learn a New Skill</h2>
+                <p> <b>Try a new language this Quarantine! PYTHON JAVASCRIPT </b></p>
+                <a href="#">
+                    <div class="cardBtn">
+                        <img src="img/next.png" alt="" class="cardIcon">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="card three" data-aos="fade-up" data-aos-duration="1600">
+            <img src="img/videocall.png" class="cardthreeImg" alt="" data-aos="fade-up" data-aos-duration="1300">
+            <div class="cardbgone"></div>
+            <div class="cardContent">
+                <h2>Video Call</h2>
+                <p>1:1 and  1:n live support classes 2</p>
+                <a href="#">
+                    <div class="cardBtn">
+                        <img src="img/next.png" alt="" class="cardIcon">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+  </div>
+   -->
 
 
 <!-- testimonial -->
@@ -360,88 +508,187 @@
 </section> -->
 
 
-
 <!-- ........testimonials..... -->
-<div class="container" style = "margin-top:150px" >
-   <center> <h1 style="font-size:52px; font-weight:42px"> <b>Our Student's thoughts</b> </h1></center>
-    <div class="row">
+<center>
+<div class="container" style="margin-top:80px">
+    <h1> <b> What Our Students Says</b></h1>
+    <h4 style="color: orange;"> Students <i class="fa fa-heart" style="font-size:50px;color:rgb(161, 18, 18)"></i> Coding Panthers</h4>
+    <div class="row" id="testimonialModal"style="margin-top:80px" >
         <div class="col-md-12">
-            <div class="main-timeline">
-                <div class="timeline" data-aos="fade-left" data-aos-duration="1000">
-                    <a href="#" class="timeline-content" style="text-decoration: none;">
-                        <span class="timeline-year">2020</span>
-                        <div class="timeline-icon">
-                            <!-- <i class="fa fa-globe"></i> -->
-                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" width="100px" height ="auto">
-                        </div>
-                        <h3 class="title">Web Designing</h3>
-                        <p class="description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo
-                        </p>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                    </a>
+            <div id="testimonial-slider" class="owl-carousel">
+                <div class="testimonial">
+                    <p class="description">
+                        " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra lectus quis placerat ultricies. Praesent ipsum turpis, mollis eget accumsan id, iaculis vel ipsum. Sed.  "
+                    </p>
+                    <div class="pic">
+                        <img src="https://www.smart-storage.co.uk/wp-content/uploads/2015/04/student-storage-3-658x410.jpg">
+                    </div>
+                    <h3 class="title">williamson</h3>
+                    <span class="post">Web Developer</span>
                 </div>
-                <div class="timeline" data-aos="fade-right" data-aos-duration="2000">
-                    <a href="#" class="timeline-content" style="text-decoration: none;">
-                        <span class="timeline-year">2019</span>
-                        <div class="timeline-icon">
-                            <i class="fa fa-rocket"></i>
-                        </div>
-                        <h3 class="title">Web Development</h3>
-                        <p class="description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo
-                        </p>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                    </a>
+ 
+                <div class="testimonial">
+                    <p class="description">
+                        " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra lectus quis placerat ultricies. Praesent ipsum turpis, mollis eget accumsan id, iaculis vel ipsum. Sed.  "
+                    </p>
+                    <div class="pic">
+                        <img src="https://www.abingdon.org.uk/prep/wp-content/uploads/sites/3/2019/10/IMG_1449-e1571233563479.jpg">
+                    </div>
+                    <h3 class="title">Kristina</h3>
+                    <span class="post">Web Designer</span>
                 </div>
-                <div class="timeline" data-aos="fade-left" data-aos-duration="3000">
-                    <a href="#" class="timeline-content" style="text-decoration: none;">
-                        <span class="timeline-year">2020</span>
-                        <div class="timeline-icon">
-                            <!-- <i class="fa fa-globe"></i> -->
-                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" width="100px" height ="auto">
-                        </div>
-                        <h3 class="title">Web Designing</h3>
-                        <p class="description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo
-                        </p>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                    </a>
-                </div>
-                <div class="timeline"data-aos="fade-right" data-aos-duration="4000">
-                    <a href="#" class="timeline-content" style="text-decoration: none;">
-                        <span class="timeline-year">2020</span>
-                        <div class="timeline-icon">
-                            <!-- <i class="fa fa-globe"></i> -->
-                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" width="100px" height ="auto">
-                        </div>
-                        <h3 class="title">Web Designing</h3>
-                        <p class="description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo
-                        </p>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                    </a>
+                <div class="testimonial">
+                    <p class="description">
+                        " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra lectus quis placerat ultricies. Praesent ipsum turpis, mollis eget accumsan id, iaculis vel ipsum. Sed.  "
+                    </p>
+                    <div class="pic">
+                        <img src="https://media.postgrad.com/editorial/students_-_girl_folders.jpg">
+                    </div>
+                    <h3 class="title">Kristina</h3>
+                    <span class="post">Web Designer</span>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
+</center>
+
+
+
+
+
+
+
+<!-- .........faq........... -->
+<div class="container-lg"style="margin-top:80px">
+   <center> <h1 style="letter-spacing: 4px;"><b>FAQ</b></h1></center>
+
+	<div class="row">
+		<div class="col-lg-10 mx-auto">
+			<div class="accordion mt-5" id="accordionExample">
+				<div class="card">
+					<div class="card-header" id="headingOne">
+						<h2 class="clearfix mb-0">
+							<a class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="material-icons">add</i> What is Coding Panthers?</a>									
+						</h2>
+					</div>
+					<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+						<div class="card-body">
+							<div class="media">
+								<img src="https://thumbs.dreamstime.com/b/work-programmer-man-coding-project-screens-program-code-vector-illustration-203127223.jpg" class="mr-3" alt="Home">
+								<div class="media-body">
+                                    <h5 class="mt-0">Hello</h5>
+                                    <p>Think of it as, A coding full-stop solution, where you pay us a small amount and we give you a big return, even if you're a kid or an adult, anyone can do coding! Is our mission.You get over 100 minutes of pre-recorded sessions, Access to our premium discord server, Projects especially designed for you, In addition to this 1 on 1 classes with our master trainers.
+                                    </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="headingTwo">
+						<h2 class="mb-0">
+							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="material-icons">add</i> Do I need any prior experience in coding?</a>
+						</h2>
+					</div>
+					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+						<div class="card-body">
+							<div class="media">
+								<img src="https://washingtonweb.design/image/slider.png" class="mr-3" alt="Home">
+								<div class="media-body">
+                                    <h5 class="mt-0">true == false</h5>
+                                    <p>
+                                        Joke for the coders there. The answer is no. You don’t need any coding experience before signing up.
+                                        </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="headingThree">
+						<h2 class="mb-0">
+							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="material-icons">add</i> Why is The Coding Panthers better than YouTube,Udemy etc.</a>                     
+						</h2>
+					</div>
+					<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+						<div class="card-body">
+							<div class="media">
+								<img src="https://woobro.design/thumbnails/42/website-speed-optimisation-vector-illustration-5de242cf65d70.png" class="mr-3" alt="Home">
+								<div class="media-body">
+                                    <h5 class="mt-0">Our Platform is the best.</h5>
+                                    <p>To put it simply, Coding Panthers focuses on helping students become creators. We're not about watching hours of boring lectures. You'll build projects through us to help you stand out on your resume, land a job, and even bring your ideas to life.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="headingFour">
+						<h2 class="mb-0">
+							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><i class="material-icons">add</i> What content can I start doing for free?</a>                               
+						</h2>
+					</div>
+					<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+						<div class="card-body">
+							<div class="media">
+								<img src="https://woobro.design/thumbnails/36/cloud-vector-illustration-5de1917d80af0.png" class="mr-3" alt="Home">
+								<div class="media-body">
+                                    <h5 class="mt-0">Login:Free-Content</h5>
+                                    <p>Our free plan gives an overview of three full projects to build. Explore here. (hyperlink)</p>
+								</div>
+							</div>
+						</div>
+					</div>
+                </div>
+                <div class="card">
+					<div class="card-header" id="headingFive">
+						<h2 class="mb-0">
+							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><i class="material-icons">add</i> I have a different question</a>                     
+						</h2>
+					</div>
+					<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+						<div class="card-body">
+							<div class="media">
+								<img src="https://woobro.design/thumbnails/42/website-speed-optimisation-vector-illustration-5de242cf65d70.png" class="mr-3" alt="Home">
+								<div class="media-body">
+                                    <h5 class="mt-0">Our Platform is the best.</h5>
+
+                                    <p>We’d be happy to answer them. Email us  (here) at,  thecodingpanther0@gmail.com
+                                        Or join our discord server here (hyperlink)
+                                        </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- .......faq.......... -->
 
@@ -452,16 +699,18 @@
    <section class="footer" style="margin-top:80px;background-color: #191c21;">
 
     <h2 style="color:white;font-size: 30px;">About us</h2>
-    <p> This course contains the most sophisticated andalusiaas same assets design assets 
+    <p style = "color:rgb(167, 161, 152)"> This course contains the most sophisticated andalusiaas same assets design assets 
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo quibusdam quam facere laudantium commodi, inventore exercitationem perferendis, 
         adipisci repellat sed consectetur minus nostrum dignissimos illum optio veniam cum dolor ducimus!
     </p>
 <div class="icons">
     <i class="fa fa-facebook" style="font-size:80px;color:aliceblue"></i>
     <i class="fa fa-instagram" style="font-size:80px;color:aliceblue"></i>
-    <i class="fa fa-twitter" style="font-size:80px;color:aliceblue"></i>
+    <i class="fab fa-discord" style="font-size:80px;color:rgb(113, 111, 228)"></i>
+    <i class="fa fa-twitter" style="font-size:80px;color:rgb(70, 183, 254)"></i>
+ 
 </div>
-<p style="font-size:20px"> Coded by <b> Vihaan</b>  with <i class="fa fa-heart" style="font-size:50px;color:rgb(161, 18, 18)"></i> </p>>
+<p style="font-size:20px;color:purple"> Coded by <b> Vihaan</b>  with <i class="fa fa-heart" style="font-size:50px;color:rgb(161, 18, 18)"></i> </p>>
    </section>
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
    <script>
